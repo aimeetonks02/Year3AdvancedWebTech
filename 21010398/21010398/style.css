@@ -1,0 +1,324 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    height: fit-content;
+    font-family: -apple-system, Segoe UI,Helvetica Neue, sans-serif;
+    font-size: 18px;
+    background-color: mintcream;
+}
+
+.big{
+    height: 90vh;
+    padding: 10px;
+    text-align: center;
+}
+
+.login {
+    width: 400px;
+    background-color: #ffffff;
+    box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
+    margin: 100px auto;
+}
+
+.login>h1 {
+    text-align: center;
+  	color: #5b6574;
+  	font-size: 24px;
+  	padding: 20px 0px;
+  	border-bottom: 1px solid #dee0e4;
+}
+
+.login>form {
+    display: flex;
+  	flex-wrap: wrap;
+  	justify-content: center;
+  	padding-top: 20px;
+}
+
+#signin>input[type="password"], #signin>input[type="email"], #signin>input[type="text"] {
+    width: 310px;
+    height: 50px;
+    border: 1px solid #dee0e4;
+    margin-bottom: 20px;
+    padding: 0 15px;
+}
+
+#signin>input[type="submit"] {
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    background-color: rgb(149, 182, 141);
+    border: 0;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 24px;
+    color: #ffffff;
+    transition: background-color 0.2s;
+}
+
+form>input[type="submit"]:hover {
+    background-color: rgb(94, 131, 99);
+    transition: background-color 0.2s;
+}
+
+.error{
+    color: mintcream;
+    font-weight: bolder;
+}
+
+.item{
+    margin: 15px 0px;
+    font-size: 20px;
+}
+
+.Food_Item{
+    display: block;
+    height: fit-content;
+    width: 15rem;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: rgb(149, 182, 141);
+    border-radius: 17px;
+    text-align: center;
+    box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
+}
+
+button {
+    height: fit-content;
+    padding: 5px 7px;
+    width: fit-content;
+    margin: 5px auto;
+    border: 2px solid #ccc;
+    border-radius: 19px;
+    background-color: mintcream;
+}
+
+.big_button{
+    display: block;
+    font-size: 28px;
+    height: fit-content;
+    padding: 10px 14px;
+    width: 200px;
+    margin: 10px auto;
+    border: 2px solid #ccc;
+    border-radius: 25px;
+    background-color: rgb(230, 240, 235);
+}
+
+button:hover {
+    border: 2px solid #555;
+    background-color: rgb(209, 218, 213);
+}
+
+#orderSuccessful{
+    display: block;
+    width: 400px;
+    height: fit-content;
+    padding: 1rem 3rem;
+    margin: 2rem auto;
+    text-align: center;
+    border: 5px solid rgb(149, 182, 141);
+    background-color:  rgb(230, 240, 235);
+    border-radius: 25px;
+}
+
+#catalogue{
+    display: flex;
+    height: 95%;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+select{
+    width: 95%;
+    background-color: mintcream;
+    border: 2px solid #ccc;
+    height: fit-content;
+    border-radius: 27px;
+    margin: 5px auto;
+    padding: 3px 5px;
+    align-self: center;
+    outline: none;
+}
+
+select:focus {
+    border: 2px solid #555;
+}
+
+#quantity {
+    height: fit-content;
+    padding: 3px 5px;
+    width: fit-content;
+    margin: 5px auto;
+    border: 3px solid #ccc;
+    border-radius: 19px;
+    background-color: mintcream;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+img {
+    height: 100%;
+    width: 200px;
+    border-radius: 19px;
+    border: 3px solid mintcream;
+}
+
+a {
+    text-decoration: none;
+    color: mintcream;
+}
+
+.nav {
+    height: 50px;
+    width: 100%;
+    padding: 5px;
+    background-color: rgb(94, 131, 99);
+    position: relative;
+}
+
+.nav-title{
+    float: left;
+}
+
+.nav > .nav-header {
+    display: inline;
+}
+
+.nav > .nav-header > .nav-title {
+    display: inline-block;
+    font-size: 22px;
+    color: mintcream;
+    padding: 10px 10px 10px 10px;
+}
+
+.nav > .nav-btn {
+    display: none;
+}
+
+.nav > .nav-links {
+    display: inline;
+    float: right;
+    font-size: 18px;
+}
+
+.nav > .nav-links > a {
+    display: inline-block;
+    padding: 13px 10px 13px 10px;
+    text-decoration: none;
+    color: #efefef;
+}
+
+.nav > .nav-links > a:hover {
+    background-color: rgb(45, 65, 48);
+    height: fit-content;
+    border-radius: 17px;
+}
+
+.nav > #nav-check {
+    display: none;
+}
+
+.formInput{
+    display: block;
+}
+
+table{
+    text-align: center;
+    font-size: large;
+    width: 90%;
+    margin: 15px auto;
+}
+
+table, tr, td{
+    border: 2px solid mintcream;
+    border-collapse: collapse;
+}
+
+tr, td{
+    padding: 15px;
+}
+
+tr:nth-child(even){
+    background-color: rgb(177, 219, 182);
+}
+
+tr:nth-child(odd){
+    background-color: rgb(136, 189, 143);
+}
+
+tr:first-child{
+    background-color: rgb(94, 131, 99);
+    color: mintcream;
+}
+
+@media (max-width: 600px) {
+    #catalogue{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 95%;
+        width: 80%;
+        justify-content: space-evenly;
+    }
+    .nav > .nav-btn {
+      display: inline-block;
+      position: absolute;
+      right: 0px;
+      top: 0px;
+    }
+    .nav > .nav-btn > label {
+      display: inline-block;
+      width: 50px;
+      height: 30px;
+      padding: 13px;
+    }
+    .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+      background-color: rgb(94, 131, 99, 0.3);
+    }
+    .nav > .nav-btn > label > span {
+      display: block;
+      width: 25px;
+      height: 10px;
+      border-top: 2px solid #eee;
+    }
+    .nav > .nav-links {
+      position: absolute;
+      display: block;
+      width: 100%;
+      background-color: rgb(94, 131, 99, 0.7);
+      height: 0px;
+      transition: all 0.3s ease-in;
+      overflow-y: hidden;
+      top: 50px;
+      left: 0px;
+    }
+    .nav > .nav-links > a {
+      display: block;
+      width: 100%;
+      font-weight: bold;
+    }
+    .nav > #nav-check:not(:checked) ~ .nav-links {
+      height: 0px;
+    }
+    .nav > #nav-check:checked ~ .nav-links {
+      height: calc(100vh - 20px);
+      overflow-y: auto;
+    }
+
+    #orderSuccessful{
+        width: 50%;
+    }
+
+    .login {
+        width: 80%;
+    }
+
+    #signin>input[type="password"], #signin>input[type="email"], #signin>input[type="text"] {
+        width: 80%;
+        margin-bottom: 10px;
+    }
+    
+}
